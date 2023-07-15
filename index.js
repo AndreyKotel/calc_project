@@ -29,11 +29,5 @@ document.querySelector('.buttons').onclick = (event) => {
     было нажато */
 
 
-    //нажата не кнопка
-    if(!event.tagret.classList.contains('btn')) return;
-    //нажата кнопка clearAll ac
-    if(event.tagret.classList.contains('ac)) return;
 
-
-    
-}
+/*
